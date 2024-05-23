@@ -1,0 +1,80 @@
+/* Reset e estilo geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #ffffff; /* Fundo branco */
+    color: #333;
+}
+
+header {
+    background: #0056b3; /* Azul */
+    color: #ffffff; /* Texto branco */
+    padding: 1rem 0;
+    text-align: center;
+    position: relative;
+}
+
+header .logo {
+    width: 100px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #ffffff; /* Texto branco */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 2rem;
+    background: #f0f0f0; /* Fundo cinza claro para contraste */
+}
+
+main section {
+    margin-bottom: 2rem;
+}
+
+main h2 {
+    color: #0056b3; /* Azul */
+    margin-bottom: 1rem;
+}
+
+.image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+}
+
+footer {
+    background: #ff6600; /* Laranja */
+    color: #ffffff; /* Texto branco */
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
